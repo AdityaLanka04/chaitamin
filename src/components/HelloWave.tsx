@@ -1,3 +1,4 @@
+// src/components/HelloWave.tsx
 import { StyleSheet } from 'react-native';
 import Animated, {
   useSharedValue,
@@ -6,7 +7,6 @@ import Animated, {
   withRepeat,
   withSequence,
 } from 'react-native-reanimated';
-
 import { ThemedText } from '@/src/components/ThemedText';
 
 export function HelloWave() {

@@ -29,7 +29,12 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        {/* Main Screens */}
+        <Stack.Screen name="Home" options={{ headerShown: false }} />
+        <Stack.Screen name="Profile" options={{ headerShown: false }} />
+        <Stack.Screen name="Recipes" options={{ headerShown: false }} />
+
+        {/* Fallback Screen */}
         <Stack.Screen name="+not-found" />
       </Stack>
     </ThemeProvider>

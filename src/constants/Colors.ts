@@ -6,15 +6,28 @@
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
+// src/constants/Colors.ts
+
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
     tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
+    tabIconDefault: '#ccc',
     tabIconSelected: tintColorLight,
   },
+  primary: '#30D5C8', // Turquoise blue
+  primaryDark: '#218F86',
+  primaryLight: '#7EEAE0',
+  water: '#4FB5FF', // Water blue
+  waterDark: '#3B8AC2',
+  waterLight: '#8FD3FF',
+  background: '#FFFFFF',
+  backgroundDark: '#1A1A1A',
+  text: '#2C2C2C',
+  textLight: '#FFFFFF',
+  textGrey: '#6B6B6B',
+  border: '#E0E0E0',
+  error: '#FF6B6B',
+  success: '#2A9D8F',
   dark: {
     text: '#ECEDEE',
     background: '#151718',
